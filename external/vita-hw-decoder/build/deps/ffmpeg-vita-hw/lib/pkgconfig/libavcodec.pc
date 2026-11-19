@@ -1,0 +1,14 @@
+prefix=/home/bnj/Documentos/Proyectos/bnj-iptv-psvita/external/vita-hw-decoder/build/deps/ffmpeg-vita-hw
+exec_prefix=${prefix}
+libdir=/home/bnj/Documentos/Proyectos/bnj-iptv-psvita/external/vita-hw-decoder/build/deps/ffmpeg-vita-hw/lib
+includedir=/home/bnj/Documentos/Proyectos/bnj-iptv-psvita/external/vita-hw-decoder/build/deps/ffmpeg-vita-hw/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 60.3.100
+Requires: libavutil >= 58.2.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -pthread -lm -lSceVideodec_stub -lSceCodecEngine_stub
+Libs.private: 
+Cflags: -I${includedir}

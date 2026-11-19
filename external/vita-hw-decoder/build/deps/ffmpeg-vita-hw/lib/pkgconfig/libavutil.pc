@@ -1,0 +1,14 @@
+prefix=/home/bnj/Documentos/Proyectos/bnj-iptv-psvita/external/vita-hw-decoder/build/deps/ffmpeg-vita-hw
+exec_prefix=${prefix}
+libdir=/home/bnj/Documentos/Proyectos/bnj-iptv-psvita/external/vita-hw-decoder/build/deps/ffmpeg-vita-hw/lib
+includedir=/home/bnj/Documentos/Proyectos/bnj-iptv-psvita/external/vita-hw-decoder/build/deps/ffmpeg-vita-hw/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 58.2.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil -pthread -lm
+Libs.private: 
+Cflags: -I${includedir}

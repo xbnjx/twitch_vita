@@ -1,0 +1,32 @@
+# Build directory
+/build/
+
+# Compilation and intermediate artifacts
+*.o
+*.obj
+*.velf
+*.self
+*.sfo
+*.a
+!external/**/lib/*.a
+
+# Large archive sources not required for compilation
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+
+# Sensitive user / runtime credentials
+auth.json
+*.log
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# VPK packages
+*.vpk

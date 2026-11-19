@@ -1,0 +1,10 @@
+curl.version=8.21.0
+curl.sha256=aa1b66a70eace83dc624508745646c08ae561de512ab403adffb93ac87fc72e6
+curl.url=https://github.com/curl/curl/releases/download/curl-8_21_0/curl-8.21.0.tar.xz
+curl.tls_backend=Mbed TLS
+mbedtls.version=3.6.5
+mbedtls.sha256=4a11f1777bb95bf4ad96721cac945a26e04bf19f57d905f241fe77ebeddf46d8
+mbedtls.url=https://github.com/Mbed-TLS/mbedtls/releases/download/mbedtls-3.6.5/mbedtls-3.6.5.tar.bz2
+mbedtls.vita_patch.sha256=9a035c50864c082c95240ffe39327fb30086c3b30c9b3a81e4f65e51e2b9bbe8
+vitasdk.packages.commit=3c2a993afd5f30cb820cb900e7bc7f4d2b45d308
+vitasdk.mbedtls.headers=/home/bnj/tools/vitasdk/arm-vita-eabi/include/mbedtls
